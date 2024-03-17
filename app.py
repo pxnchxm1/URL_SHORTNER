@@ -30,5 +30,4 @@ def redirect_to_original(short_url):
     else:
         return render_template('not_found.html'), 404
 
-if __name__ == '__main__':
-    app.run(debug=True)
+
