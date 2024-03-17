@@ -9,7 +9,7 @@ url_mapping = {}
 
 def generate_short_link():
     characters = string.ascii_letters + string.digits
-    return ''.join(random.choice(characters) for _ in range(6))
+    return ''.join(random.choice(characters) for _ in range(4))
 
 @app.route('/')
 def index():
